@@ -146,6 +146,12 @@ body {
   padding: 10px 20px;
   border-radius: 5px;
   font-weight: bold;
+  transition: 0.5s;
+}
+
+.learn-link:hover {
+  background-color: rgb(51, 51, 191);
+  color: white;
 }
 
 .hyper-links {
@@ -225,6 +231,13 @@ ul {
   font-weight: bold;
   border: none;
   font-size: 15px;
+  cursor: pointer;
+  transition:  0.5s;
+}
+
+.course-button:hover {
+  background-color: rgb(51, 51, 191);
+  color: white;
 }
 
 .course-1, .course-2, .course-3 {
@@ -263,4 +276,26 @@ ul {
   display:flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.left-ft1-par {
+  color: #000;
+  font-size: 15px;
+}
+
+.ft2-par {
+  color: #000;
+}
+
+.ft1-section {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 60px;
+  padding-right: 60px;
+  gap: 20px;
+}
+
+.ft2-section {
+  text-align: center;
+  margin-top: 20px;
 }
