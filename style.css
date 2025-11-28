@@ -82,7 +82,7 @@ body {
 }
 
 .hero-section {
-  background-image: url("youth.jpg");
+  background-image: url("images/youth.jpg");
   min-height: 95vh;
   align-items: center;
 }
@@ -262,7 +262,7 @@ ul {
 }
 
 .sumit-container {
-  background-image: url("youth.jpg");
+  background-image: url("images/youth.jpg");
   min-height: 70vh;
   padding-left: 80px;
   padding-right: 80px;
